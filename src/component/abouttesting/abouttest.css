@@ -1,0 +1,133 @@
+.about-container1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .aboutText-container {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  max-width: 100%;
+  }
+  
+  .aboutText-container h1 {
+    color: #14B8A6;
+    font-family: 'poppins',sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 600;
+  }
+  .heading-hr {
+    width: 15%;
+    border-radius: 10px;
+    border: 0;
+    border-top: 4px solid #14B8A6; 
+    margin-left: 0%;
+    margin-top: -10px;
+}
+
+
+  .aboutText-container h5{
+    width: 70%;
+    margin: 0;
+    font-weight: 400;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 30px 0px;
+  }
+  .box-containers{
+    display: flex;
+    flex-direction:row;
+    margin: 10px 10px;
+    box-sizing: border-box;
+     gap: 20px;
+  }
+  
+  .box-container {
+    width: 300px;
+    height: 300px;
+    background-color: #1F2937;
+    border-radius: 8px;
+    border: 1px solid#4B5563;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex: 1 1 200px;        Flex grow, shrink and basis */
+    text-align: center;
+  }
+  
+  .multilingual-support {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.multilingual-support i {
+  align-items: center;
+  font-size: 26px;
+  color: #61dafb; 
+}
+
+  .text-container2{
+    background-color: #374151;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 30px 0 20px 0;
+  }
+  
+  .text-container2 h2 {
+    margin: 20px 0 10px 0;
+    color: #14B8A6 ;
+    font-family: 'poppins',sans-serif;
+    font-size: 22px;
+   font-weight: 600;
+  }
+  .text-container2 h5{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    color: white;
+  }
+
+  @media (max-width: 786px) {
+    .text-container h1 {
+        font-size: 2rem; 
+        width: 100%;
+    }
+    .aboutText-container h5{
+      width: 90%;
+      font-size: 14px;
+      font-family: 'poppins', sans-serif;
+      margin-top: 10px;
+    }
+
+    .text-container h5 {
+        font-size: 0.9rem; 
+        padding: 0 5px;
+        width: 100%;
+    }
+
+    .box-containers{
+      flex-direction: column;
+
+    }
+    .about-container1{
+      display:flex;
+    }
+}

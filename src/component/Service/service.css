@@ -1,0 +1,115 @@
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 5% 0;
+    background-color: #1F2937;
+    color: #fff;
+  }
+  
+  .serviceText-container {
+    width: 100%;
+    max-width: 55%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+
+  .service-heading-hr {
+    width: 15%;
+    border-radius: 10px;
+    border: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 4px solid #14B8A6; 
+    margin-top: -10px; 
+  }
+  
+  .serviceText-container h1 {
+    font-size: 2.6em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  
+  .serviceText-container p {
+    font-size: 1em;
+    color: #D1D5DB;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .service-icon {
+    font-size: 1em;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background-color: #14B8A6;
+    margin-right: 10px;
+  }
+  .service-item p {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+  .image-container {
+    width: 100%;
+    max-width: 45%;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .service-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .text-container, .image-container {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .service-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .serviceText-container {
+     
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+     margin: 0;
+    }
+     .service-item p{
+      font-size: 1rem;
+     }
+    }
+  
+  

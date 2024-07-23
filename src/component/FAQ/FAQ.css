@@ -1,0 +1,102 @@
+.faq-page{
+    background: #2D3748;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+   text-align: center;
+    color: white;
+}
+.faq-heading-hr {
+    width: 15%;
+    border-radius: 10px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid #14B8A6; 
+    margin-top: 10px;
+    align-items: center;
+}
+.FAQ-container{
+    display: flex;
+    flex-direction:row;
+    padding: 30px;
+max-width: 100%;
+    
+}
+.FAQ-image{
+  flex: 1;
+    max-width: 40%;
+    align-items: center;
+}
+.FAQ-img{
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+  
+}
+
+
+.FAQ-text{
+    max-width: 60%;
+    width: 100%;
+    display:flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 20px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    align-items: center;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+  }
+  
+  .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    color: #444;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel.active {
+    display:block;
+  }
+  .panel p{
+    width: 100%;
+    font-family: 'poppins'sans-serif;
+    font-size: 16px;
+    text-align: left;
+
+  }
+
+   
+  @media (max-width: 768px) {
+
+    .FAQ-container{
+      flex-direction: column;
+      width: 100%;
+      padding: 10px;
+    }
+
+.FAQ-img{
+  display: none;
+}
+.FAQ-text{
+ 
+  max-width:100%;
+  padding: 0px;
+
+}
+  }
